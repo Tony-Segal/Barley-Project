@@ -1,5 +1,5 @@
 # Barley-Project
-1 Overview
+# 1. Overview
 This test is inspired by a recent EPIC research project. Your task is to perform basic data
 cleaning, prepare a final dataset for analysis, provide short answers to prompts, and create
 publication-quality figures. Submit the test on Canvas by the end of your testing window.
@@ -31,7 +31,7 @@ publication-quality and answers should be clear and concise.
 • Replicability - we should be able to produce all tables and figures with minimal changes
 to your code.
 
-2 Data Introduction
+# 2. Data Introduction
 There are two CSV input datasets, briefly described below. These datasets are provided
 in the .zip file and contain all the data that you will need. Each dataset is from the US
 Department of Agriculture.
@@ -41,13 +41,13 @@ state levels.
 state. Ignore the distinction between the marketing year and the calendar year.
 Each file contains annual data from 1990 to 2017.
 
-3 Econometrics Background (ungraded)
+# 3. Econometrics Background (ungraded)
 In 1-2 sentences, please briefly describe your background in econometrics and statistics (e.g.,
 coursework, research experience). If you have not yet taken econometrics, please note when
 you intend to take an econometrics equivalent course and its course number at your university.
 
 
-4 Data Exploration (40 Points)
+# 4. Data Exploration (40 Points)
 4.1 Histograms
 Create six frequency histograms of agricultural district barley production, one for each of
 the following years: 1990, 1995, 2000, 2005, 2010, and 2015. Scale the production variable
@@ -77,7 +77,8 @@ Create a summary table where the rows are specific states (Idaho, Minnesota, Mon
 North Dakota, and Wyoming) and the columns are decades (1990-1999, 2000-2009, and
 2010-2017). The elements of the table are mean annual state-level production, by decade
 and state. Include this table in the document.
-5 Short Answer (60 Points)
+
+# 5. Short Answer (60 Points)
 Our goal is to estimate the sensitivity of US farmers’ barley production to barley price, using
 the provided data, at the level of state by year. Drop state years with missing production
 data. Please provide all answers in the document and provide the best presentation you are
@@ -99,20 +100,6 @@ state level. (If you are unable to run the regression, refer to Column 2 of Tabl
     c. State fixed effects include a constant for each state in the regression specification.
 Illustrate how state fixed effects can account for state-specific characteristics that
 do not change over time. Do you prefer this specification? Why or why not?
-
-Table 1: Regression of US Barley production on average Barley price
-(1) (2) (3)
-OLS State FE State and Year FE
-Barley price ($ per Bushels) 2.137∗∗ -3.190∗
--5.555
-(0.711) (1.424) (3.710)
-Constant 6.627∗∗ 21.51∗∗∗ 28.12∗
-(2.301) (3.979) (10.36)
-State FE No Yes Yes
-Month-Year FE No No Yes
-Observations 611 611 611
-Standard errors in parentheses
-∗ p < 0.05, ∗∗ p < 0.01, ∗∗∗ p < 0.001
   5. We decide to use year fixed effects in addition to state fixed effects. Run this regression
 on the provided data and report the estimated coefficient on price, along with its
 standard error. Justify the method you used to calculate the standard error. (If you
