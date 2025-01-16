@@ -87,32 +87,32 @@ able to on your write-up.
 Ensure that the terms are properly indexed.
   2. Estimate the linear model you’ve written in (1) using linear regression. (If you are
 unable to run the regression, refer to Column 1 of Table 1.)
-    a. What is the interpretation of the coefficient on price?
-    b. Briefly describe one reason why we cannot interpret the coefficient as a causal
+      a. What is the interpretation of the coefficient on price?
+      b. Briefly describe one reason why we cannot interpret the coefficient as a causal
 effect of price on production.
-  3. What variables do you think we should control for? Choose two and explain why they
+  4. What variables do you think we should control for? Choose two and explain why they
 might help us to identify the causal effect of price on production. These variables need
 not be in the original dataset.
-  4. Regress production on price with state fixed effects. Cluster standard errors at the
+  5. Regress production on price with state fixed effects. Cluster standard errors at the
 state level. (If you are unable to run the regression, refer to Column 2 of Table 1.)
-    a. Write down an equation for this model.
-    b. What is the interpretation of the coefficient on price?
-    c. State fixed effects include a constant for each state in the regression specification.
+      a. Write down an equation for this model.
+      b. What is the interpretation of the coefficient on price?
+      c. State fixed effects include a constant for each state in the regression specification.
 Illustrate how state fixed effects can account for state-specific characteristics that
 do not change over time. Do you prefer this specification? Why or why not?
-  5. We decide to use year fixed effects in addition to state fixed effects. Run this regression
+  6. We decide to use year fixed effects in addition to state fixed effects. Run this regression
 on the provided data and report the estimated coefficient on price, along with its
 standard error. Justify the method you used to calculate the standard error. (If you
 are unable to run the regression, refer to Column 3 of Table 1.)
-    a. Write down an equation for this model.
-    b. What is the interpretation of the coefficient on price?
-    c. Year fixed effects include a constant for each year in the regression specification.
+      a. Write down an equation for this model.
+      b. What is the interpretation of the coefficient on price?
+      c. Year fixed effects include a constant for each year in the regression specification.
 Illustrate how time fixed effects can account for time-specific characteristics that
 are the same across states. Do you prefer this specification? Why or why not?
-  6. Suppose one of the other research assistants accidentally deletes 10% of the observations
+  7. Suppose one of the other research assistants accidentally deletes 10% of the observations
 of the barley production variable. How would you expect dropping these observations
 to change the estimated coefficient on price and its standard error if the deletions are
 random? What if they are not at random?
-  7. Refer back to the estimated coefficients on price. Does our model uncover the true
+  8. Refer back to the estimated coefficients on price. Does our model uncover the true
 relationship between price and supply as predicted by economic theory? Why or why
 not?
