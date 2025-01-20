@@ -1,5 +1,5 @@
 # Barley-Project
-# 1. Overview
+## 1. Overview
 This test is inspired by a recent EPIC research project. Your task is to perform basic data
 cleaning, prepare a final dataset for analysis, provide short answers to prompts, and create
 publication-quality figures. Submit the test on Canvas by the end of your testing window.
@@ -31,7 +31,7 @@ publication-quality and answers should be clear and concise.
 • Replicability - we should be able to produce all tables and figures with minimal changes
 to your code.
 
-# 2. Data Introduction
+## 2. Data Introduction
 There are two CSV input datasets, briefly described below. These datasets are provided
 in the .zip file and contain all the data that you will need. Each dataset is from the US
 Department of Agriculture.
@@ -41,13 +41,13 @@ state levels.
 state. Ignore the distinction between the marketing year and the calendar year.
 Each file contains annual data from 1990 to 2017.
 
-# 3. Econometrics Background (ungraded)
+## 3. Econometrics Background (ungraded)
 In 1-2 sentences, please briefly describe your background in econometrics and statistics (e.g.,
 coursework, research experience). If you have not yet taken econometrics, please note when
 you intend to take an econometrics equivalent course and its course number at your university.
 
 
-# 4. Data Exploration (40 Points)
+## 4. Data Exploration (40 Points)
 4.1 Histograms
 Create six frequency histograms of agricultural district barley production, one for each of
 the following years: 1990, 1995, 2000, 2005, 2010, and 2015. Scale the production variable
@@ -78,7 +78,7 @@ North Dakota, and Wyoming) and the columns are decades (1990-1999, 2000-2009, an
 2010-2017). The elements of the table are mean annual state-level production, by decade
 and state. Include this table in the document.
 
-# 5. Short Answer (60 Points)
+## 5. Short Answer (60 Points)
 Our goal is to estimate the sensitivity of US farmers’ barley production to barley price, using
 the provided data, at the level of state by year. Drop state years with missing production
 data. Please provide all answers in the document and provide the best presentation you are
