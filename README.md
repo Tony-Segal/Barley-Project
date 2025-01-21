@@ -48,7 +48,7 @@ you intend to take an econometrics equivalent course and its course number at yo
 
 
 ## 4. Data Exploration (40 Points)
-4.1 Histograms
+### 4.1 Histograms
 Create six frequency histograms of agricultural district barley production, one for each of
 the following years: 1990, 1995, 2000, 2005, 2010, and 2015. Scale the production variable
 so that it is in millions of bushels. Only keep observations that are between the 1st and 99th
@@ -58,7 +58,7 @@ YEAR is the appropriate year. Color the histogram bars based on the year: red (1
 orange (1995), yellow (2000), green (2005), blue (2010), and purple (2015). These plots do
 not need to appear in the final document.
 
-4.2 Dataset Cleaning
+### 4.2 Dataset Cleaning
 Collapse Barley production.csv at the state-year level. Set production equal to the sum
 of production across the state. Scale the production variable so that it is in millions of
 bushels. Merge with Barley price.csv. Only keep variables that will be used in the later
@@ -66,13 +66,13 @@ analyses. Use this dataset for the remainder of the data task. In the document, 
 description of the dataset and any potential limitations that future users should be aware of
 (3–4 sentences or less).
 
-4.3 Time Series Plot
+### 4.3 Time Series Plot
 For each year, compute the weighted average of price over all states, where each state’s
 weight is its production in bushels in that year. Then, plot this weighted average over the
 time period from 1990 to 2017. Include this figure in the document and briefly describe the
 trend. Note any changes to the sample across the years.
 
-4.4 Summary Table
+### 4.4 Summary Table
 Create a summary table where the rows are specific states (Idaho, Minnesota, Montana,
 North Dakota, and Wyoming) and the columns are decades (1990-1999, 2000-2009, and
 2010-2017). The elements of the table are mean annual state-level production, by decade
