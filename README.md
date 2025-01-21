@@ -1,4 +1,6 @@
 # Barley-Project
+This data task was completed to illustrate my capability in data analysis to an internship application with the Energy Policy Insitute at the University of Chicago. Specifically, this project summarizes my ability in data cleaning, plotting (histograms, charts, time series graph), regression analysis and interpretation of results.
+
 ## 1. Overview
 This test is inspired by a recent EPIC research project. Your task is to perform basic data
 cleaning, prepare a final dataset for analysis, provide short answers to prompts, and create
