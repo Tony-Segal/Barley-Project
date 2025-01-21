@@ -22,6 +22,7 @@ LASTNAME FIRSTNAME.zip:
 - Graphs
 - Tables
 - A short document with your responses to the questions named LASTNAME FIRSTNAME.pdf.
+
 Data tasks will be evaluated based on the following criteria:
 - Correctness
 - Code clarity - code should be commented appropriately. The final folder should be
