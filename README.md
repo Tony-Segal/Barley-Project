@@ -17,27 +17,27 @@ requirements, feel free to go beyond them if you feel inspired. Two or three sen
 suffice for each of your responses in the Short Answer section.
 Once you have completed the sections below, please submit the following in a .zip file named
 LASTNAME FIRSTNAME.zip:
-• Code file(s)
-• Final dataset
-• Graphs
-• Tables
-• A short document with your responses to the questions named LASTNAME FIRSTNAME.pdf.
+- Code file(s)
+- Final dataset
+- Graphs
+- Tables
+- A short document with your responses to the questions named LASTNAME FIRSTNAME.pdf.
 Data tasks will be evaluated based on the following criteria:
-• Correctness
-• Code clarity - code should be commented appropriately. The final folder should be
+- Correctness
+- Code clarity - code should be commented appropriately. The final folder should be
 well-organized and files should have informative names.
-• Document clarity - the final document should be neat. Tables and figures should be
+- Document clarity - the final document should be neat. Tables and figures should be
 publication-quality and answers should be clear and concise.
-• Replicability - we should be able to produce all tables and figures with minimal changes
+- Replicability - we should be able to produce all tables and figures with minimal changes
 to your code.
 
 ## 2. Data Introduction
 There are two CSV input datasets, briefly described below. These datasets are provided
 in the .zip file and contain all the data that you will need. Each dataset is from the US
 Department of Agriculture.
-• Barley production.csv lists the barley production in bushels by agricultural districts. The agricultural district is an administrative division between the county and
+- Barley production.csv lists the barley production in bushels by agricultural districts. The agricultural district is an administrative division between the county and
 state levels.
-• Barley price.csv lists the mean price received by farmers per bushel of barley by
+- Barley price.csv lists the mean price received by farmers per bushel of barley by
 state. Ignore the distinction between the marketing year and the calendar year.
 Each file contains annual data from 1990 to 2017.
 
@@ -87,26 +87,26 @@ able to on your write-up.
 Ensure that the terms are properly indexed.
   2. Estimate the linear model you’ve written in (1) using linear regression. (If you are
 unable to run the regression, refer to Column 1 of Table 1.)
-      (a) What is the interpretation of the coefficient on price?
-      (b) Briefly describe one reason why we cannot interpret the coefficient as a causal
+      - (a) What is the interpretation of the coefficient on price?
+      - (b) Briefly describe one reason why we cannot interpret the coefficient as a causal
 effect of price on production.
   4. What variables do you think we should control for? Choose two and explain why they
 might help us to identify the causal effect of price on production. These variables need
 not be in the original dataset.
   5. Regress production on price with state fixed effects. Cluster standard errors at the
 state level. (If you are unable to run the regression, refer to Column 2 of Table 1.)
-      (a) Write down an equation for this model.
-      (b) What is the interpretation of the coefficient on price?
-      (c) State fixed effects include a constant for each state in the regression specification.
+      - (a) Write down an equation for this model.
+      - (b) What is the interpretation of the coefficient on price?
+      - (c) State fixed effects include a constant for each state in the regression specification.
 Illustrate how state fixed effects can account for state-specific characteristics that
 do not change over time. Do you prefer this specification? Why or why not?
   6. We decide to use year fixed effects in addition to state fixed effects. Run this regression
 on the provided data and report the estimated coefficient on price, along with its
 standard error. Justify the method you used to calculate the standard error. (If you
 are unable to run the regression, refer to Column 3 of Table 1.)
-      (a) Write down an equation for this model.
-      (b) What is the interpretation of the coefficient on price?
-      (c) Year fixed effects include a constant for each year in the regression specification.
+     - (a) Write down an equation for this model.
+     -  (b) What is the interpretation of the coefficient on price?
+     -  (c) Year fixed effects include a constant for each year in the regression specification.
 Illustrate how time fixed effects can account for time-specific characteristics that
 are the same across states. Do you prefer this specification? Why or why not?
   7. Suppose one of the other research assistants accidentally deletes 10% of the observations
