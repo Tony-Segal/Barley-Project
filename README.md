@@ -12,7 +12,8 @@ state. Ignore the distinction between the marketing year and the calendar year.
 Each file contains annual data from 1990 to 2017.
 
 
-## 2. Data Exploration (Plots and explanations in written summary)
+## 2. Data Exploration 
+Plots and explanations in Responses and Analysis pdf. Histograms are in repository.
 ### 2.1 Histograms
 - Created six frequency histograms of agricultural district barley production, one for each of
 the following years: 1990, 1995, 2000, 2005, 2010, and 2015
@@ -39,7 +40,7 @@ North Dakota, and Wyoming) and the columns are decades (1990-1999, 2000-2009, an
 - The elements of the table are mean annual state-level production, by decade
 and state
 
-## 3. Short Answer (Adressed in written summary)
+## 3. Short Answer (Adressed in Responses and Analysis pdf)
 Our goal is to estimate the sensitivity of US farmers’ barley production to barley price, using
 the provided data, at the level of state by year. Drop state years with missing production
 data. Please provide all answers in the document and provide the best presentation you are
