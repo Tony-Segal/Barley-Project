@@ -33,10 +33,11 @@ weight is its production in bushels in that year
 - Plotted this weighted average over the time period from 1990 to 2017
 
 ### 2.4 Summary Table
-Created a summary table where the rows are specific states (Idaho, Minnesota, Montana,
+- Created a summary table where the rows are specific states (Idaho, Minnesota, Montana,
 North Dakota, and Wyoming) and the columns are decades (1990-1999, 2000-2009, and
-2010-2017). The elements of the table are mean annual state-level production, by decade
-and state. Include this table in the document.
+2010-2017)
+- The elements of the table are mean annual state-level production, by decade
+and state
 
 ## 3. Short Answer (Adressed in written summary)
 Our goal is to estimate the sensitivity of US farmers’ barley production to barley price, using
