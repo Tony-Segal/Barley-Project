@@ -1,40 +1,7 @@
 # Barley-Project
-**This data task was completed to illustrate my capability in data analysis to an internship application with the Energy Policy Insitute at the University of Chicago (EPIC). Specifically, this project summarizes my ability in data cleaning, plotting (histograms, charts, time series graph), regression analysis and interpretation of results. The following are the instructions for the project provided by EPIC.**
+**This project summarizes my ability in data cleaning, plotting (histograms, charts, time series graph), regression analysis and interpretation of results. The data and guidelines for this project were provided by the Energy Policy Institute at the University of Chicago (EPIC) and are summarized below.**
 
-## 1. Overview
-This test is inspired by a recent EPIC research project. Your task is to perform basic data
-cleaning, prepare a final dataset for analysis, provide short answers to prompts, and create
-publication-quality figures. Submit the test on Canvas by the end of your testing window.
-For the coding portion of this test, we will accept code in R, Stata, or Python. You are
-welcome to use any pre-existing online programming or econometrics resources, but you
-may not ask other people for help. In addition, you may not use generative AI for any part
-of this data task e.g. you may not use ChatGPT. Data tasks that use ChatGPT will not be
-graded.
-If you are unsure of how to answer a question, feel free to answer to the best of your ability
-with any ideas that come to mind. If you find any of these instructions to be confusing,
-please proceed in a way that you find relevant and reasonable, and list your assumptions in
-your writeup.
-Please aim to show your best effort on the tasks. While the questions outline essential
-requirements, feel free to go beyond them if you feel inspired. Two or three sentences should
-suffice for each of your responses in the Short Answer section.
-Once you have completed the sections below, please submit the following in a .zip file named
-LASTNAME FIRSTNAME.zip:
-- Code file(s)
-- Final dataset
-- Graphs
-- Tables
-- A short document with your responses to the questions named LASTNAME FIRSTNAME.pdf.
-
-Data tasks will be evaluated based on the following criteria:
-- Correctness
-- Code clarity - code should be commented appropriately. The final folder should be
-well-organized and files should have informative names.
-- Document clarity - the final document should be neat. Tables and figures should be
-publication-quality and answers should be clear and concise.
-- Replicability - we should be able to produce all tables and figures with minimal changes
-to your code.
-
-## 2. Data Introduction
+## 1. Data Introduction
 There are two CSV input datasets, briefly described below. These datasets are provided
 in the .zip file and contain all the data that you will need. Each dataset is from the US
 Department of Agriculture.
@@ -44,44 +11,36 @@ state levels.
 state. Ignore the distinction between the marketing year and the calendar year.
 Each file contains annual data from 1990 to 2017.
 
-## 3. Econometrics Background (ungraded)
-In 1-2 sentences, please briefly describe your background in econometrics and statistics (e.g.,
-coursework, research experience). If you have not yet taken econometrics, please note when
-you intend to take an econometrics equivalent course and its course number at your university.
 
+## 2. Data Exploration 
+Plots and explanations in Responses and Analysis pdf. Histograms are in repository.
+### 2.1 Histograms
+- Created six frequency histograms of agricultural district barley production, one for each of
+the following years: 1990, 1995, 2000, 2005, 2010, and 2015
+- Scaled the production variable so that it is in millions of bushels
+- Kept observations that are between the 1st and 99th percentiles of barley production for a given year
+- Colored the histogram bars based on the year: red (1990),orange (1995), yellow (2000), green (2005), blue (2010), and purple (2015)
 
-## 4. Data Exploration (40 Points)
-### 4.1 Histograms
-Create six frequency histograms of agricultural district barley production, one for each of
-the following years: 1990, 1995, 2000, 2005, 2010, and 2015. Scale the production variable
-so that it is in millions of bushels. Only keep observations that are between the 1st and 99th
-percentiles of barley production for a given year. Ensure all plots have titles that include the
-year. Save each file separately and label it “barley production histogram YEAR.pdf” where
-YEAR is the appropriate year. Color the histogram bars based on the year: red (1990),
-orange (1995), yellow (2000), green (2005), blue (2010), and purple (2015). These plots do
-not need to appear in the final document.
+### 2.2 Dataset Cleaning
+- Collapsed Barley production.csv at the state-year level
+- Set production equal to the sum of production across the state
+- Scaled the production variable so that it is in millions of bushels
+- Merged with Barley price.csv and kept only variables that will be used in the later
+analyses
 
-### 4.2 Dataset Cleaning
-Collapse Barley production.csv at the state-year level. Set production equal to the sum
-of production across the state. Scale the production variable so that it is in millions of
-bushels. Merge with Barley price.csv. Only keep variables that will be used in the later
-analyses. Use this dataset for the remainder of the data task. In the document, write a brief
-description of the dataset and any potential limitations that future users should be aware of
-(3–4 sentences or less).
+### 2.3 Time Series Plot
+- For each year, computed the weighted average of price over all states, where each state’s
+weight is its production in bushels in that year
+- Plotted this weighted average over the time period from 1990 to 2017
 
-### 4.3 Time Series Plot
-For each year, compute the weighted average of price over all states, where each state’s
-weight is its production in bushels in that year. Then, plot this weighted average over the
-time period from 1990 to 2017. Include this figure in the document and briefly describe the
-trend. Note any changes to the sample across the years.
-
-### 4.4 Summary Table
-Create a summary table where the rows are specific states (Idaho, Minnesota, Montana,
+### 2.4 Summary Table
+- Created a summary table where the rows are specific states (Idaho, Minnesota, Montana,
 North Dakota, and Wyoming) and the columns are decades (1990-1999, 2000-2009, and
-2010-2017). The elements of the table are mean annual state-level production, by decade
-and state. Include this table in the document.
+2010-2017)
+- The elements of the table are mean annual state-level production, by decade
+and state
 
-## 5. Short Answer (60 Points)
+## 3. Short Answer (Adressed in Responses and Analysis pdf)
 Our goal is to estimate the sensitivity of US farmers’ barley production to barley price, using
 the provided data, at the level of state by year. Drop state years with missing production
 data. Please provide all answers in the document and provide the best presentation you are
