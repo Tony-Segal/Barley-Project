@@ -1,5 +1,5 @@
 # Barley-Project
-**This project summarizes my ability in data cleaning, plotting (histograms, charts, time series graph), regression analysis and interpretation of results. The data and guidelines for this project were provided by the Energy Policy Institute at the University of Chicago (EPIC) and are summarized below**
+**This project summarizes my ability in data cleaning, plotting (histograms, charts, time series graph), regression analysis and interpretation of results. The data and guidelines for this project were provided by the Energy Policy Institute at the University of Chicago (EPIC) and are summarized below.**
 
 ## 1. Data Introduction
 There are two CSV input datasets, briefly described below. These datasets are provided
